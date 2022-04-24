@@ -34,7 +34,7 @@ namespace ShaderTools.CodeAnalysis.Syntax
             }
         }
 
-        internal void SetSyntaxTree(SyntaxTreeBase syntaxTree)
+        public void SetSyntaxTree(SyntaxTreeBase syntaxTree)
         {
             _syntaxTree = syntaxTree;
         }

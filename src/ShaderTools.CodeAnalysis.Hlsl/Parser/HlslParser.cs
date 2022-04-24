@@ -12,7 +12,7 @@ using ShaderTools.CodeAnalysis.Text;
 
 namespace ShaderTools.CodeAnalysis.Hlsl.Parser
 {
-    internal partial class HlslParser
+    public partial class HlslParser
     {
         private readonly ILexer _lexer;
         private readonly List<SyntaxToken> _tokens = new List<SyntaxToken>();

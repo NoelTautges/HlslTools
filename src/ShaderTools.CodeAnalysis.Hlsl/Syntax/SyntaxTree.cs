@@ -20,7 +20,7 @@ namespace ShaderTools.CodeAnalysis.Hlsl.Syntax
 
         public override ParseOptions Options { get; }
 
-        internal SyntaxTree(SourceFile file, HlslParseOptions options, Func<SyntaxTree, Tuple<SyntaxNode, List<FileSegment>>> parseFunc)
+        public SyntaxTree(SourceFile file, HlslParseOptions options, Func<SyntaxTree, Tuple<SyntaxNode, List<FileSegment>>> parseFunc)
         {
             File = file;
             Text = file.Text;

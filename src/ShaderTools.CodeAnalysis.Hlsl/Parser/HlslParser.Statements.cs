@@ -7,7 +7,7 @@ using ShaderTools.CodeAnalysis.Syntax;
 
 namespace ShaderTools.CodeAnalysis.Hlsl.Parser
 {
-    internal partial class HlslParser
+    public partial class HlslParser
 	{
         public StatementSyntax ParseStatement()
         {

@@ -2,7 +2,7 @@ using ShaderTools.CodeAnalysis.Text;
 
 namespace ShaderTools.CodeAnalysis.Hlsl.Parser
 {
-    internal sealed class FileSegment
+    public sealed class FileSegment
     {
         public readonly SourceFile File;
         public readonly int Start;

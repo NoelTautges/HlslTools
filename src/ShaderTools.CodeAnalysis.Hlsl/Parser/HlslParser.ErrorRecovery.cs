@@ -7,7 +7,7 @@ using ShaderTools.CodeAnalysis.Hlsl.Syntax;
 
 namespace ShaderTools.CodeAnalysis.Hlsl.Parser
 {
-    internal partial class HlslParser
+    public partial class HlslParser
     {
         private TerminatorState _termState; // Resettable
 

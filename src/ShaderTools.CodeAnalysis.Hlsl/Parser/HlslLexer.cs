@@ -57,7 +57,7 @@ namespace ShaderTools.CodeAnalysis.Hlsl.Parser
         // - {main.hlsl, 0, 100}
         // - {included.hlsli, 0, 10}
         // - {main.hlsl, 101, 200}
-        internal List<FileSegment> FileSegments { get; }
+        public List<FileSegment> FileSegments { get; }
 
         public HlslLexer(SourceFile file, HlslParseOptions options = null, IIncludeFileSystem includeFileSystem = null)
         {
